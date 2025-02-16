@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true, // حالت Strict برای دیباگ بهتر
-  trailingSlash: true, // اضافه کردن / به انتهای URL
-  output: "export", // تولید خروجی استاتیک
+  reactStrictMode: true,
+  trailingSlash: true,
+  output: "export",
   images: {
-    unoptimized: true, // حل مشکل تصاویر در GitHub Pages
+    unoptimized: true,
   },
-  basePath: "/banana", // نام ریپو گیت‌هاب رو اینجا بذار
+  basePath: "/banana", // این باید به نام ریپو شما اشاره کنه
   assetPrefix: "/banana", // برای فایل‌های استاتیک
 };
