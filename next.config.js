@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true, // حالت Strict برای دیباگ بهتر
   trailingSlash: true, // اضافه کردن / به انتهای URL
   output: "export", // تولید خروجی استاتیک
@@ -9,5 +9,3 @@ const nextConfig = {
   basePath: "/banana", // نام ریپو گیت‌هاب رو اینجا بذار
   assetPrefix: "/banana", // برای فایل‌های استاتیک
 };
-
-module.exports = nextConfig;
