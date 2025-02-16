@@ -1,4 +1,3 @@
-
 const nextConfig = {
   output: 'export',
   basePath: '/banana', 
