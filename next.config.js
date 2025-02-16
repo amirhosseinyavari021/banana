@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/banana", // نام ریپوی گیت‌هاب
+  basePath: "/banana", 
   assetPrefix: "/banana/",
 };
 
