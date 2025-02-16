@@ -1,6 +1,7 @@
 {
   "name": "banana",
   "version": "1.0.0",
+  "homepage": "https://amirhosseinyavari021.github.io/banana",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,4 +17,3 @@
     "gh-pages": "^3.2.3"
   }
 }
-
